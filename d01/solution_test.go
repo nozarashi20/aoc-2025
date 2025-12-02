@@ -7,15 +7,15 @@ import (
 )
 
 func ExamplePartOne() {
-	lines, _ := helpers.ReadFile("data/sample.txt")
+	lines, _ := helpers.ReadFile("data/input.txt")
 	res := PartOne(lines)
 	fmt.Println(res)
-	// Output: 3
+	// Output: 1191
 }
 
 func ExamplePartTwo() {
-	lines, _ := helpers.ReadFile("data/sample.txt")
+	lines, _ := helpers.ReadFile("data/input.txt")
 	res := PartTwo(lines)
 	fmt.Println(res)
-	// Output: 6
+	// Output: 6858
 }
