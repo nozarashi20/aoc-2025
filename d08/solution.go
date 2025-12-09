@@ -6,6 +6,8 @@ import (
 	"strings"
 )
 
+// For a better implementation https://fr.wikipedia.org/wiki/Union-find
+
 type Point struct {
 	x, y, z, circuit int
 }
